@@ -1,0 +1,236 @@
+{
+    "httpStatusCode": 200,
+    "financialAsAtDate": "2016-10-21",
+    "opstatus": 0,
+    "nextStartKey": "",
+    "transactionsByDate": [
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Contribution Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    },
+                                                    {
+                                                    "amount": "$50,008.044545454",
+                                                    "activityLine2": "Lump (Member)",
+                                                    "descriptionLine1": "Trimark Fund C LUMP",
+                                                    "descriptionLine2": "2087.974 units at $23.9505"
+                                                    },
+                                                    {
+                                                    "amount": "$50,008.044545454",
+                                                    "activityLine2": "Lump (Member)",
+                                                    "descriptionLine1": "Trimark Fund C LUMP",
+                                                    "descriptionLine2": "2087.974 units at $23.9505"
+                                                    },
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Contribution Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    },
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Contribution Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-10-03"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    },
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    },
+                                                    {
+                                                    "amount": "$50,008.044545454",
+                                                    "activityLine2": "Lump (Member)",
+                                                    "descriptionLine1": "Trimark Fund C LUMP",
+                                                    "descriptionLine2": "2087.974 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-09-01"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-08-02"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-07-04"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-06-01"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-05-02"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-04-01"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-03-01"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-02-02"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-01-05"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2015-12-01"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$50,008.04",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Trimark Fund C",
+                                                    "descriptionLine2": "2087.97478 units at $23.9505"
+                                                    }
+                                                    ],
+                                       "productType": "RRSP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2015-11-02"
+                           }
+                           ]
+}

@@ -1,0 +1,954 @@
+{
+    "opStatus": "0",
+    "opMessage": "SUCCESS",
+    "financialAsAtDate": "2016-12-01",
+    "nextStartKey": "798394692014042405M664260010000130QBX01",
+    "transactionsByDate": [
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-11-30"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-11-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-11-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   3.00000%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-11-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   3.00000%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-11-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-10-31"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-10-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-10-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   3.00000%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-10-27"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   3.00000%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-10-27"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-09-30"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-09-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-09-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   3.00000%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-09-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   3.00000%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-09-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-08-31"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-08-30"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-08-30"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   1.87500%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-08-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   1.87500%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-08-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-07-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-07-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-07-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   1.87500%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-07-27"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   1.87500%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-07-27"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-06-30"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-06-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$3,278.45",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "UBS International NR Fund",
+                                                    "descriptionLine2": "92.79534 units at $35.3299"
+                                                    },
+                                                    {
+                                                    "amount": "$4,740.20",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "BGI S&P/TSX Comp Index NR",
+                                                    "descriptionLine2": "506.81065 units at $9.3530"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "-$584.07",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "-53.09727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-06-29"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   1.87500%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-06-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$58,400.40",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "Brandes Intl Equity",
+                                                    "descriptionLine2": "5309.12727 units at $11.0000"
+                                                    }
+                                                    ],
+                                       "productType": "DCPP"
+                                       },
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$560.22",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Altamira Bond Fund NR",
+                                                    "descriptionLine2": "28.36557 units at $19.7500"
+                                                    },
+                                                    {
+                                                    "amount": "$450.56",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "1-Year Guaranteed Fund at   1.87500%",
+                                                    "descriptionLine2": null
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-06-28"
+                           },
+                           {
+                           "product": [
+                                       {
+                                       "activity": [
+                                                    {
+                                                    "amount": "$5,000.19",
+                                                    "activityLine2": "Contribution (Member)",
+                                                    "descriptionLine1": "Glaxo Smith Kline Stock",
+                                                    "descriptionLine2": "234.24592 units at $21.3457"
+                                                    },
+                                                    {
+                                                    "amount": "$700.64",
+                                                    "activityLine2": "Contribution (Employer)",
+                                                    "descriptionLine1": "TD Canadian Index",
+                                                    "descriptionLine2": "100.81151 units at $6.9500"
+                                                    }
+                                                    ],
+                                       "productType": "ESP"
+                                       }
+                                       ],
+                           "dateOfTransaction": "2016-05-31"
+                           }
+                           ]
+}
