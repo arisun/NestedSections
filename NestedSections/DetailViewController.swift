@@ -54,12 +54,12 @@ class DetailViewController: UIViewController,UITableViewDelegate {
             } catch _ {
                 contents = nil
             }
-            print(historyMapper)
+            print(historyMapper as Any)
         }
         
-        if let history = historyMapper{
+        if historyMapper != nil{
             mapResponseDataWithModel()
-            
+
         }
     }
     
@@ -135,8 +135,8 @@ class DetailViewController: UIViewController,UITableViewDelegate {
         }
         
         
-        print(historyObj)
-        
+        print(historyObj as Any)
+
     }
     
     
@@ -262,7 +262,7 @@ class DetailViewController: UIViewController,UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = UILabel()
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.lightGray
         if let val = historyObj?.transactions![section]{
             view.text = val.dateStr
         }
@@ -300,7 +300,7 @@ class DetailViewController: UIViewController,UITableViewDelegate {
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath){
         
         //cell.layoutMargins = .zero
-        var sectionHeaders = self.sectionsHeaderArray[Int((indexPath as NSIndexPath).section)]
+        _ = self.sectionsHeaderArray[Int((indexPath as NSIndexPath).section)]
         
         let itemAndSubsectionIndex = self.computeItemAndSubsectionIndex(indexPath)
         let subsectionIndex = Int((itemAndSubsectionIndex as NSIndexPath).section)
@@ -318,25 +318,25 @@ class DetailViewController: UIViewController,UITableViewDelegate {
                 cell.separatorInset = .zero
                 tableView.separatorInset = .zero
                 
-                if cell.viewWithTag(1001) == nil{
-                    let view = UIView()
-                    view.tag = 1001
-                    var framev = cell.frame
-                    framev.origin.y = cell.frame.size.height - 0.75
-                    framev.size.height = 0.75
-                    view.frame = framev
-                    view.backgroundColor = UIColor.lightGray
-                    cell.addSubview(view)
-                    
-                }
-                
-            }
-            else{
-                //cell.separatorInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, cell.bounds.size.width)
-                //tableView.separatorInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, cell.bounds.size.width)
-                cell.viewWithTag(1001)?.removeFromSuperview()
-                
-            }
+//                if cell.viewWithTag(1001) == nil{
+//                    let view = UIView()
+//                    view.tag = 1001
+//                    var framev = cell.frame
+//                    framev.origin.y = cell.frame.size.height - 0.75
+//                    framev.size.height = 0.75
+//                    view.frame = framev
+//                    view.backgroundColor = UIColor.lightGray
+//                    cell.addSubview(view)
+//                    
+//                }
+//                
+           }
+//            else{
+//                //cell.separatorInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, cell.bounds.size.width)
+//                //tableView.separatorInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, cell.bounds.size.width)
+//                cell.viewWithTag(1001)?.removeFromSuperview()
+//                
+//            }
         }
         
         if (indexPath.section + 1) == tableView.numberOfSections{
@@ -365,12 +365,21 @@ class DetailViewController: UIViewController,UITableViewDelegate {
         }
         else {
             // Row Item
-            let cell = table.dequeueReusableCell(withIdentifier: "rowCell", for: indexPath)
+            let cell = table.dequeueReusableCell(withIdentifier: "rowCell", for: indexPath) as! CustomRowCell
+            
+            cell.seperatorLbl.isHidden = true
+            if ((itemIndex + 1) == sectionsArray[(indexPath as NSIndexPath).section][subsectionIndex].count) && (tableView.numberOfRows(inSection: indexPath.section) > indexPath.row + 1){
+                cell.seperatorLbl.isHidden = false
+
+            }
+
+            let textField : UITextField = cell.viewWithTag(101) as! UITextField
+            textField.backgroundColor = UIColor.green
             
             let act : ActivityModel = sectionsArray[(indexPath as NSIndexPath).section][subsectionIndex][itemIndex]
             print("COUNT \(sectionsArray[(indexPath as NSIndexPath).section][subsectionIndex].count)_ROW \(itemIndex)")
             
-            cell.textLabel!.text = "\(act.amount)\n \(act.descriptionLine1)\n \(act.descriptionLine2)"//"\(sectionsArray[subsectionIndex][itemIndex]) --\(Int(itemIndex))"
+            cell.titleCell!.text = "\(act.amount)\n \(act.descriptionLine1)\n \(act.descriptionLine2)"//"\(sectionsArray[subsectionIndex][itemIndex]) --\(Int(itemIndex))"
             cell.textLabel?.numberOfLines = 0
             cell.textLabel?.lineBreakMode = .byWordWrapping
             
@@ -419,6 +428,37 @@ class DetailViewController: UIViewController,UITableViewDelegate {
             
         }
         
+    }
+
+
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool{
+        let contentInsets = UIEdgeInsetsMake(0.0, 0.0, 226.0, 0.0);
+        table.contentInset = contentInsets;
+        table.scrollIndicatorInsets = contentInsets;
+
+        // If active text field is hidden by keyboard, scroll it so it's visible
+        // Your application might not need or want this behavior.
+        var aRect = table.frame;
+        aRect.size.height -= 226.0;
+        if (!aRect.contains(textField.bounds.origin) ) {
+            let scrollPoint = CGPoint(x: 0.0, y: (textField.frame.origin.y - 226.0));
+            table.setContentOffset(scrollPoint, animated: true)
+        }
+
+        return true
+    }
+
+    func textFieldDidBeginEditing(_ textField: UITextField!) {
+
+
+
+
+
+    }
+
+    func textFieldDidEndEditing(_ textField: UITextField!) {
+
+
     }
     
     //    func sections() -> [Any] {

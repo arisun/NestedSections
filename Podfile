@@ -7,6 +7,7 @@ use_frameworks!
 
 def available_pods
 pod 'ObjectMapper', '~> 2.2'
+pod 'LayoutKit'
 end
 
 target 'NestedSections' do

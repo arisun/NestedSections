@@ -18,6 +18,7 @@
 		E8E4FE531DFB375200BC6DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E4FE521DFB375200BC6DD9 /* Assets.xcassets */; };
 		E8E4FE561DFB375200BC6DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E4FE541DFB375200BC6DD9 /* LaunchScreen.storyboard */; };
 		E8E4FE5F1DFB425700BC6DD9 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E4FE5E1DFB425700BC6DD9 /* HistoryModel.swift */; };
+		E8EA40561DFFB2F1009E7BCB /* CustomRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA40551DFFB2F1009E7BCB /* CustomRowCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E8E4FE551DFB375200BC6DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8E4FE571DFB375200BC6DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E4FE5E1DFB425700BC6DD9 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		E8EA40551DFFB2F1009E7BCB /* CustomRowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRowCell.swift; sourceTree = "<group>"; };
 		E8FBA5F31DFC6294008288F7 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "Pods/../build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 				E8E4FE491DFB375200BC6DD9 /* AppDelegate.swift */,
 				E8E4FE4B1DFB375200BC6DD9 /* MasterViewController.swift */,
 				E8E4FE4D1DFB375200BC6DD9 /* DetailViewController.swift */,
+				E8EA40551DFFB2F1009E7BCB /* CustomRowCell.swift */,
 				E8E4FE5D1DFB421F00BC6DD9 /* Model */,
 				E8E4FE4F1DFB375200BC6DD9 /* Main.storyboard */,
 				E87CB4AE1DFC5DBE006AC829 /* Transaction_History.json */,
@@ -143,12 +146,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = arindam_ghosh;
 				TargetAttributes = {
 					E8E4FE451DFB375200BC6DD9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U44C542N48;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -239,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BCD7511DFC5B1600259F0B /* HistoryMapper.swift in Sources */,
+				E8EA40561DFFB2F1009E7BCB /* CustomRowCell.swift in Sources */,
 				E8E4FE5F1DFB425700BC6DD9 /* HistoryModel.swift in Sources */,
 				E8E4FE4E1DFB375200BC6DD9 /* DetailViewController.swift in Sources */,
 				E8E4FE4C1DFB375200BC6DD9 /* MasterViewController.swift in Sources */,
@@ -281,13 +287,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U44C542N48;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -307,6 +317,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d5a0cdf4-6216-49f4-93e4-fd7d7ef70bda";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,17 +337,22 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U44C542N48;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -345,7 +361,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d5a0cdf4-6216-49f4-93e4-fd7d7ef70bda";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -355,15 +373,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D651004909616827340443D /* Pods-NestedSections.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bharat  Berlia (3MJ25BAB94)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bharat  Berlia (3MJ25BAB94)";
+				DEVELOPMENT_TEAM = U44C542N48;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/ObjectMapper",
 				);
 				INFOPLIST_FILE = NestedSections/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.home.NestedSections;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.app.aegis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0a6102e5-85a0-48a5-abec-da10a2be02ae";
+				PROVISIONING_PROFILE_SPECIFIER = "Aegis Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -372,15 +397,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 875E3AE5E30E4A57A94AFB30 /* Pods-NestedSections.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bharat  Berlia (3MJ25BAB94)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bharat  Berlia (3MJ25BAB94)";
+				DEVELOPMENT_TEAM = U44C542N48;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/ObjectMapper",
 				);
 				INFOPLIST_FILE = NestedSections/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.home.NestedSections;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indusnet.app.aegis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0a6102e5-85a0-48a5-abec-da10a2be02ae";
+				PROVISIONING_PROFILE_SPECIFIER = "Aegis Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
