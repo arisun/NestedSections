@@ -29,7 +29,7 @@ class DetailViewController: UIViewController,UITableViewDelegate {
         didSet {
             // Update the view.
             self.configureView()
-        }
+        } 
     }
     
     func configureView() {
