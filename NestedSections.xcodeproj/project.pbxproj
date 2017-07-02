@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B6E2BBB0D91F92B49F2EDD87 /* Pods_NestedSections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3143BD3269EA5E4CA8BD822 /* Pods_NestedSections.framework */; };
 		E87CB4AF1DFC5DBE006AC829 /* Transaction_History.json in Resources */ = {isa = PBXBuildFile; fileRef = E87CB4AE1DFC5DBE006AC829 /* Transaction_History.json */; };
+		E88365661F06E2EA00A14CD4 /* DownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88365651F06E2EA00A14CD4 /* DownloadModel.swift */; };
 		E8A0057A1DFC91AF00CFEEA5 /* Transaction_History_modified.json in Resources */ = {isa = PBXBuildFile; fileRef = E8A005791DFC91AF00CFEEA5 /* Transaction_History_modified.json */; };
 		E8BCD7511DFC5B1600259F0B /* HistoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BCD7501DFC5B1600259F0B /* HistoryMapper.swift */; };
 		E8E4FE4A1DFB375200BC6DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E4FE491DFB375200BC6DD9 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 		8D651004909616827340443D /* Pods-NestedSections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedSections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestedSections/Pods-NestedSections.debug.xcconfig"; sourceTree = "<group>"; };
 		C3143BD3269EA5E4CA8BD822 /* Pods_NestedSections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedSections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87CB4AE1DFC5DBE006AC829 /* Transaction_History.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Transaction_History.json; sourceTree = "<group>"; };
+		E88365651F06E2EA00A14CD4 /* DownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadModel.swift; sourceTree = "<group>"; };
 		E8A005791DFC91AF00CFEEA5 /* Transaction_History_modified.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Transaction_History_modified.json; sourceTree = "<group>"; };
 		E8BCD7501DFC5B1600259F0B /* HistoryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMapper.swift; sourceTree = "<group>"; };
 		E8E4FE461DFB375200BC6DD9 /* NestedSections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedSections.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 			children = (
 				E8E4FE5E1DFB425700BC6DD9 /* HistoryModel.swift */,
 				E8BCD7501DFC5B1600259F0B /* HistoryMapper.swift */,
+				E88365651F06E2EA00A14CD4 /* DownloadModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BCD7511DFC5B1600259F0B /* HistoryMapper.swift in Sources */,
+				E88365661F06E2EA00A14CD4 /* DownloadModel.swift in Sources */,
 				E8EA40561DFFB2F1009E7BCB /* CustomRowCell.swift in Sources */,
 				E8E4FE5F1DFB425700BC6DD9 /* HistoryModel.swift in Sources */,
 				E8E4FE4E1DFB375200BC6DD9 /* DetailViewController.swift in Sources */,

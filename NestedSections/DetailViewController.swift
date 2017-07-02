@@ -373,8 +373,8 @@ class DetailViewController: UIViewController,UITableViewDelegate {
 
             }
 
-            let textField : UITextField = cell.viewWithTag(101) as! UITextField
-            textField.backgroundColor = UIColor.green
+            //let textField : UITextField = cell.viewWithTag(101) as! UITextField
+            //textField.backgroundColor = UIColor.green
             
             let act : ActivityModel = sectionsArray[(indexPath as NSIndexPath).section][subsectionIndex][itemIndex]
             print("COUNT \(sectionsArray[(indexPath as NSIndexPath).section][subsectionIndex].count)_ROW \(itemIndex)")

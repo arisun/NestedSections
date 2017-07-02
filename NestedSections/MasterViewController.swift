@@ -8,16 +8,19 @@
 
 import UIKit
 
-class MasterViewController: UITableViewController {
+class MasterViewController: UITableViewController,URLSessionDownloadDelegate {
 
     var detailViewController: DetailViewController? = nil
     var objects = [AnyObject]()
-
+    var downloads : [DownloadModel]?
+    var session : URLSession?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationItem.leftBarButtonItem = self.editButtonItem
+        let config: URLSessionConfiguration = URLSessionConfiguration.default
+        session = URLSession(configuration: config, delegate: self, delegateQueue: OperationQueue.main)
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(MasterViewController.insertNewObject(_:)))
         self.navigationItem.rightBarButtonItem = addButton
@@ -38,9 +41,25 @@ class MasterViewController: UITableViewController {
     }
 
     func insertNewObject(_ sender: AnyObject) {
-        objects.insert(Date() as AnyObject, at: 0)
-        let indexPath = IndexPath(row: 0, section: 0)
-        self.tableView.insertRows(at: [indexPath], with: .automatic)
+        let urls = ["https://upload.wikimedia.org/wikipedia/commons/f/fc/Chartley_Castle-1.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Big_Bear_Valley%2C_California.jpg/1200px-Big_Bear_Valley%2C_California.jpg",
+                    "https://peach.blender.org/wp-content/uploads/poster_rodents_bunnysize.jpg?x11217",
+                    "https://peach.blender.org/wp-content/uploads/poster_bunny_big.jpg?x11217",
+                    "http://www.bravurabaritones.com/wp-content/uploads/2015/07/Big-Water.jpg",
+                    "http://static3.businessinsider.com/image/529c795c6bb3f7b44f3706ed/big-data-will-drive-the-next-phase-of-innovation-in-mobile-computing.jpg",
+                    "https://peach.blender.org/wp-content/uploads/bbb-splash.png?x11217",
+                    "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chartley_Castle-1.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chartley_Castle-1.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chartley_Castle-1.jpg"]
+        for i in 0..<10{
+            objects.insert(Date() as AnyObject, at: 0)
+            let url = urls[i]
+            let indexPath = IndexPath(row: 0, section: 0)
+            self.tableView.insertRows(at: [indexPath], with: .automatic)
+            self.startDownload(counter: i, withURL: url)
+        }
+
+        self.tableView.reloadData()
     }
 
     // MARK: - Segues
@@ -68,10 +87,10 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomRowCellMaster
 
         let object = objects[(indexPath as NSIndexPath).row] as! Date
-        cell.textLabel!.text = object.description
+        cell.titleCell!.text = object.description
         return cell
     }
 
@@ -89,6 +108,53 @@ class MasterViewController: UITableViewController {
         }
     }
 
+    // MARK : Download Data
 
+    func startDownload(counter: Int, withURL: String){
+        if downloads == nil{
+            downloads = [DownloadModel]()
+        }
+        let url : URL = URL(string: withURL)!
+        let downloadTask = session?.downloadTask(with: url)
+        let downloadModel : DownloadModel = DownloadModel()
+        downloadModel.id = (downloadTask?.taskIdentifier)!
+        print("taskID: \(downloadTask?.taskIdentifier)")
+        downloadModel.rowID = counter
+        downloads?.append(downloadModel)
+        downloadTask?.resume()
+    }
+
+    // MARK: NSURLSessionDownloadDelegate methods
+
+
+    func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL){
+
+    }
+    func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64){
+
+        //let count = downloads.count
+        print("TASKID : \(downloadTask.taskIdentifier)")
+        if (downloads?.contains(where: {$0.id == downloadTask.taskIdentifier}))!
+        {
+            guard let index = downloads?.index(where: {$0.id == downloadTask.taskIdentifier}) else {
+                return
+            }
+            print("ID:\(downloadTask.taskIdentifier), index:\(index) \n")
+            let indexpath = IndexPath(row: index, section: 0)
+            DispatchQueue.main.async(execute: {
+                if let cell = self.tableView.cellForRow(at: indexpath) as? CustomRowCellMaster {
+                    cell.progressBar.setProgress(Float(totalBytesWritten)/Float(totalBytesExpectedToWrite), animated: true)
+                }
+            })
+        }
+
+    }
+    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?){
+        if (error != nil) {
+            print(error!.localizedDescription)
+        }else{
+            print("The task finished transferring data successfully")
+        }
+    }
 }
 
